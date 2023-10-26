@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(222, 228, 228);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bolme1 {
+    width: 300px;
+    height: 80px;
+    background-color: rgb(175, 218, 218);
+}
+.bolgu {
+    width: 300px;
+    height: 80px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolgu h1,
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bolme2 {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.bolme2 div {
+    width: 200px;
+    height: 80px;
+    background-color: aquamarine;
+}
+.text {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(106, 74, 34);
+    padding: 50px;
+}
+.text1 {
+    width: 200px;
+    height: 60px;
+}
+.bolgu1 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(225, 215, 204);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.bolgu1>div {
+    background-color: rgb(116, 107, 124);
+
+}
+
+.bolgu2 {
+    grid-row-end: 1;
+    grid-row-start: 2;
+}
+
+.text2 {
+    width: 100%;
+    height: 750px;
+    background-color: rgb(126, 98, 64);
+    padding: 100px;
+}
+
+.text2 p,
+h2 {
+    margin-bottom: 50px;
+}
+
+.text3 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(225, 215, 204);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.text3>div {
+    background-color: rgb(116, 107, 124);
+
+}
+
+.text4 {
+    grid-row-end: 1;
+    grid-row-start: 2;
+}
